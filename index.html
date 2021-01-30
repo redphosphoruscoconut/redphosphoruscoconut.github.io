@@ -118,7 +118,7 @@
 <p>安装 Hexo 完成后，请执行下列命令，Hexo 将会在指定文件夹中新建所需要的文件</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo init &lt;folder&gt;</span><br><span class="line">cd &lt;folder&gt;</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure>
 <blockquote>
-<p>Hexo不兼容PowerShell，所以在创建网站页面时要用命令行</p>
+<p>注：Hexo不兼容PowerShell，所以在创建网站页面时要用命令行</p>
 </blockquote>
 <h3 id="生成网站"><a href="#生成网站" class="headerlink" title="生成网站"></a>生成网站</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure>
 <h3 id="查看服务器"><a href="#查看服务器" class="headerlink" title="查看服务器"></a>查看服务器</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure>
@@ -135,18 +135,21 @@
 <p>运行以下代码查看是否成功安装</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm list hexo-deployer-git</span><br></pre></td></tr></table></figure>
 <p>如果看到插件对应的版本，说明插件已成功安装</p>
+<p>在github上以以下格式创建仓库：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;username&gt;.github.io</span><br></pre></td></tr></table></figure>
 <p>接下来，到configure文件里更改以下选项</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: &lt;Your github repository https&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: &lt;Your github repository&gt;</span><br></pre></td></tr></table></figure>
 <p>运行<code>hexo d</code><br>即可将hexo部署到github上<br>此时遇见windows下常见github错误<code>fatal: unable to auto-detect email address</code>，因为github的密码没有被正确识别<br>运行以下命令重新设置git的配置文件</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --global credential.helper wincred</span><br></pre></td></tr></table></figure>
 <p>当他出现这两个提示</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">*** Please tell me who you are.</span><br><span class="line"></span><br><span class="line">Run</span><br><span class="line"></span><br><span class="line">  git config --global user.email &quot;you@example.com&quot;</span><br><span class="line">  git config --global user.name &quot;Your Name&quot;</span><br></pre></td></tr></table></figure>
-<p>按提示输入邮箱和用户名就行<br>现在，hexo就部署好了</p>
+<p>按提示输入邮箱和用户名就行</p>
+<p>现在，hexo就部署好了,输入<code>https://&lt;username&gt;.github.io</code>即可进入博客</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2021/01/30/%E5%BB%BA%E7%AB%8B%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" data-id="ckkijzk5l0000e4ut6mlfgio1" data-title="建立个人博客" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2021/01/30/%E5%BB%BA%E7%AB%8B%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" data-id="ckkj8sxi40002ooutaq8r0tsy" data-title="建立个人博客" class="article-share-link">Share</a>
       
       
       
@@ -196,7 +199,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2021/01/30/tilte/" data-id="ckkijm86g000004utf0zbaoq6" data-title="tilte" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2021/01/30/tilte/" data-id="ckkj8sxi30001oout58sgbnrm" data-title="tilte" class="article-share-link">Share</a>
       
       
       
@@ -243,7 +246,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2021/01/29/hello-world/" data-id="ckkighrn20000eoutbt8bdame" data-title="Hello World" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2021/01/29/hello-world/" data-id="ckkj8sxhz0000oout4tji7wek" data-title="Hello World" class="article-share-link">Share</a>
       
       
       
