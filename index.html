@@ -93,10 +93,11 @@
     
     <div class="e-content article-entry" itemprop="articleBody">
       
-        <h2 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h2><p>想和同学联机星露谷，但奈何星露谷自己的服务器太卡了，用Teamviewer建立虚拟局域网联机也屡次掉线，在网上一番搜索后，找到了这么一个办法，可以让联机体验流畅，以免以后还会用到，作此文以记录。</p>
-<blockquote>
-<p>虽然不卡了，但是星露谷闪退超级烦人ヽ(｀⌒´メ)ノ</p>
-</blockquote>
+        <meta name="referrer" content="no-referrer" />
+## 起因
+想和同学联机星露谷，但奈何星露谷自己的服务器太卡了，用Teamviewer建立虚拟局域网联机也屡次掉线，在网上一番搜索后，找到了这么一个办法，可以让联机体验流畅，以免以后还会用到，作此文以记录。
+>虽然不卡了，但是星露谷闪退超级烦人ヽ(｀⌒´メ)ノ
+
 <p>购买服务器之类的直接就跳过了，我买的是学生版的轻量应用服务器，98/年，大概是最低配置了<br>frp下载：<a target="_blank" rel="noopener" href="https://github.com/fatedier/frp/releases">https://github.com/fatedier/frp/releases</a><br>FinalShell官网：<a target="_blank" rel="noopener" href="http://www.hostbuf.com/">http://www.hostbuf.com/</a></p>
 <h2 id="第一步-SSH连接服务器-为了用FinalShell访问服务器"><a href="#第一步-SSH连接服务器-为了用FinalShell访问服务器" class="headerlink" title="第一步 SSH连接服务器(为了用FinalShell访问服务器)"></a>第一步 SSH连接服务器(为了用FinalShell访问服务器)</h2><p>首先找到远程连接，在远程连接里找到密钥管理，新建一个密钥<br><img src="https://upload-images.jianshu.io/upload_images/25219354-0458b555b4ca643b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="新建密钥"><br>输入要创建密钥的名字，我这里的名字就叫starvalley<br><img src="https://upload-images.jianshu.io/upload_images/25219354-57164001a1780614.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="写入名字"><br>然后浏览器会下载一个密钥文件，保存好这个密钥文件<br>之后要重启一次服务器<br>接下来可以移步到FinalShell进行操作了</p>
 <h2 id="第二步-FinalShell连接服务器"><a href="#第二步-FinalShell连接服务器" class="headerlink" title="第二步 FinalShell连接服务器"></a>第二步 FinalShell连接服务器</h2><p>在FinalShell中新建一个连接，<strong>名称</strong>为frp，<strong>主机</strong>输入服务器公网IP，<strong>方法</strong>改为公钥，<strong>用户名</strong>为root，<strong>私钥</strong>选择我们刚生成的私钥<br>配置完成后就可以连接我们的服务器了<br><img src="https://upload-images.jianshu.io/upload_images/25219354-d7a546df0f101481.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="连接成功"></p>
