@@ -64,6 +64,10 @@
 <h2 id="Live2D"><a href="#Live2D" class="headerlink" title="Live2D"></a>Live2D</h2><p>详细信息：<a href="https://github.com/EYHN/hexo-helper-live2d/blob/master/README.zh-CN.md">https://github.com/EYHN/hexo-helper-live2d/blob/master/README.zh-CN.md</a></p>
 <p>进阶：<a href="https://github.com/stevenjoezhang/live2d-widget">https://github.com/stevenjoezhang/live2d-widget</a></p>
 ]]></content>
+      <tags>
+        <tag>博客</tag>
+        <tag>网站建立</tag>
+      </tags>
   </entry>
   <entry>
     <title>用阿里云和frp内网穿透搭建星露谷服务器</title>
