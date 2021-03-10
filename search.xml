@@ -49,7 +49,21 @@
   <entry>
     <title>数字电路笔记</title>
     <url>/2021/03/10/%E6%95%B0%E5%AD%97%E7%94%B5%E8%B7%AF%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="第一章-数字逻辑基础"><a href="#第一章-数字逻辑基础" class="headerlink" title="第一章 数字逻辑基础"></a>第一章 数字逻辑基础</h1><h2 id="进制"><a href="#进制" class="headerlink" title="进制"></a>进制</h2><p>二进制(Binary): B    八进制(Octal): O</p>
+<p>十进制(Decimal): D    十六进制(Hexadecimal): H</p>
+<h2 id="进制转化"><a href="#进制转化" class="headerlink" title="进制转化"></a>进制转化</h2><h3 id="十进制转二进制"><a href="#十进制转二进制" class="headerlink" title="十进制转二进制"></a>十进制转二进制</h3><p>整数部分</p>
+<ol>
+<li>短除法 (可用于十进制转任意进制)</li>
+<li>权拆分 $(395)_{10}=256+128+8+2+1$</li>
+</ol>
+<p>小数部分 *2取整</p>
+<p>​    例:<br>$$<br>(0.8125)<em>{10}=(1101)</em>{2}\<br>0.8125 \times 2 = 1.6250 \cdots 1\<br>0.6250 \times 2 = 1.2500 \cdots 1\<br>0.2500 \times 2 = 0.5000 \cdots 0\<br>0.5000 \times 2 = 1.0000 \cdots 1\<br>$$</p>
+<h3 id="二进制转八进制"><a href="#二进制转八进制" class="headerlink" title="二进制转八进制"></a>二进制转八进制</h3><p>三位为一组: $110\ 001\ 011=(613)_{8}$</p>
+<h3 id="二进制转十六进制"><a href="#二进制转十六进制" class="headerlink" title="二进制转十六进制"></a>二进制转十六进制</h3><p>四位为一组: $1\ 1000\ 1011=(18B)_{16}$</p>
+<h2 id="BCD码"><a href="#BCD码" class="headerlink" title="BCD码"></a>BCD码</h2><p><img src="https://i.loli.net/2021/03/10/YHnNF1AjZmQfLCl.png" alt="BCD码"></p>
+<p>8421码 +3 -&gt; 余3码</p>
+<h2 id="ASCII码"><a href="#ASCII码" class="headerlink" title="ASCII码"></a>ASCII码</h2><p><img src="https://i.loli.net/2021/03/10/djAsN54ZaXwIq8h.png" alt="ASCII码"></p>
+]]></content>
       <categories>
         <category>工程学习</category>
       </categories>
